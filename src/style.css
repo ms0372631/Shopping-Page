@@ -38,12 +38,23 @@ html {
   background-color: blanchedalmond;
 }
 
+.dropdown3 {
+  position: absolute;
+  top: 130px;
+  left: 58px;
+  height: 300px;
+  width: 90vw;
+  display: none;
+  justify-content: center;
+  z-index: 2;
+  background-color: blanchedalmond;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100px;
 }
 
 .dropdown2 {
@@ -63,6 +74,10 @@ html {
 }
 
 .click2:hover .dropdown1 {
+  display: flex;
+}
+
+.click4:hover .dropdown3 {
   display: flex;
 }
 
@@ -129,8 +144,33 @@ html {
 }
 
 .col5 img {
-  height: 95%;
+  height: 80%;
   width: auto;
+}
+
+.col4 div {
+  margin: 10px;
+}
+.col6 {
+  display: flex;
+  align-items: center;
+}
+
+.col6 img {
+  height: 80%;
+  width: auto;
+  margin: 10px
+}
+
+.col7 {
+  display: flex;
+  align-items: center;
+}
+
+.col7 img {
+  height: 80%;
+  width: auto;
+  margin: 10px;
 }
 
 .navbar {
@@ -142,6 +182,7 @@ html {
   justify-content: space-between;
 }
 
+
 .navbar a {
   text-decoration: none;
   color: black;
@@ -151,7 +192,7 @@ html {
   display: flex;
   flex-direction: row;
   height: 100%;
-  width: 70vw;
+  width: 60%;
   margin-left: 5%;
 }
 
@@ -164,9 +205,8 @@ html {
   display: flex;
   flex-direction: row;;
   height: 100%;
-  width: 15%;
+  width: 25%;
   padding: 5px;
-  margin-right: 5%;
 }
 
 .search-icon {
@@ -226,7 +266,8 @@ html {
 }
 
 .sign-in {
-  margin: auto;
+  margin-top: 15px;
+  padding: 5px;
 }
 
 .footer {
@@ -240,6 +281,10 @@ html {
   background-color: black;
   color: aliceblue;
   text-align: center;
+}
+
+.footer:hover {
+  text-decoration: underline;
 }
 
 .wrapper {
@@ -277,7 +322,7 @@ html {
 
 .four {
   grid-column: 1 / 2;
-  grid-row: 6 / 10;
+  grid-row: 6 / 9;
   /* border: 1px black solid; */
 }
 
@@ -295,7 +340,7 @@ html {
 
 .seven {
   grid-column: 1 / 2;
-  grid-row: 10 / 12;
+  grid-row: 9 / 12;
   /* border: 1px black solid;   */
 }
 
