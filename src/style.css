@@ -28,30 +28,64 @@ html {
 
 .dropdown1 {
   height: 300px;
-  width: 100vw;
-  display: flex;
+  width: 90vw;
+  display: none;
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
   position: absolute;
 }
 
+.dropdown2 {
+  height: 300px;
+  width: 90vw;
+  display: none;
+  justify-content: center;
+  z-index: 2;
+  background-color: blanchedalmond;
+  position: absolute;
+}
+
+.click3:hover .dropdown2 {
+  display: flex;
+}
+
+.click2:hover .dropdown1 {
+  display: flex;
+}
+
 .col1 {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 150px;
-  padding: 15px;
+  width: 175px;
+  padding: 15px 0 15px 15px;
   text-align: center;
+}
+
+.col1 .header {
+  margin: 10px 10px 30px 10px;
+} 
+
+.col1 div {
+  margin: 5px;
 }
 
 .col2 {
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 100px;
-  padding: 15px;
+  width: 125px;
+  padding: 15px 15px 15px 0;
   text-align: center;
+}
+
+.col2 .header {
+  margin: 10px 10px 30px 10px;
+}
+
+.col2 div {
+  margin: 5px;
 }
 
 .col3 {
@@ -60,7 +94,30 @@ html {
 }
 
 .col3 img{
+  height: 95%;
+  width: auto;
+}
+
+.col4 {
+  display: flex;
+  flex-direction: column;
   height: 100%;
+  width: 175px;
+  padding: 15px 0 15px 15px;
+  text-align: center;
+}
+
+.col4 div {
+  margin: 5px;
+}
+
+.col5 {
+  display: flex;
+  align-items: center;
+}
+
+.col5 img {
+  height: 95%;
   width: auto;
 }
 
@@ -75,6 +132,8 @@ html {
 .navbar a {
   height: 100%;
   padding: 20px 5px 20px 5px;
+  text-decoration: none;
+  color: black;
 }
 
 .navbar-left {
