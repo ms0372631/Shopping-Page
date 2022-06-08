@@ -38,6 +38,13 @@ html {
   background-color: blanchedalmond;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .dropdown2 {
   position: absolute;
   top: 130px;
@@ -135,8 +142,6 @@ html {
 }
 
 .navbar a {
-  height: 100%;
-  padding: 20px 5px 20px 5px;
   text-decoration: none;
   color: black;
 }
@@ -155,9 +160,67 @@ html {
 }
 
 .navbar-right {
+  display: flex;
+  flex-direction: row;
   height: 100%;
-  width: 20%;
-  padding: 25px 5px 25px 5px;
+  width: 22%;
+  padding: 5px ;
+}
+
+.search-icon {
+  height: 30px;
+  margin: 15px 10px 15px 10px;
+}
+
+.underline1 {
+  visibility: hidden;
+}
+
+.container:hover .underline1{
+  visibility: visible;
+  width: 83%;
+}
+
+.underline2 {
+  visibility: hidden;
+}
+
+.container:hover .underline2 {
+  visibility: visible;
+  width: 32%;
+}
+
+.underline3 {
+  visibility: hidden;
+}
+
+.container:hover .underline3{
+  visibility: visible;
+  width: 75%;
+}
+
+.underline4 {
+  visibility: hidden;
+}
+
+.container:hover .underline4 {
+  visibility: visible;
+  width: 75%;
+}
+
+.underline5 {
+  visibility: hidden;
+  width: 40%;
+}
+
+.underline6 {
+  visibility: hidden;
+  width: 85%;
+}
+
+.shopping-bag {
+  height: 30px;
+  margin: 15px 10px 15px 10px;
 }
 
 .footer {
