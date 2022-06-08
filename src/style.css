@@ -27,23 +27,27 @@ html {
 }
 
 .dropdown1 {
+  position: absolute;
+  top: 130px;
+  left: 43px;
   height: 300px;
   width: 90vw;
   display: none;
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
-  position: absolute;
 }
 
 .dropdown2 {
+  position: absolute;
+  top: 130px;
+  left: 43px;
   height: 300px;
   width: 90vw;
   display: none;
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
-  position: absolute;
 }
 
 .click3:hover .dropdown2 {
@@ -145,8 +149,9 @@ html {
   padding: 5px;
 }
 
-.navbar-left img {
-  height: 50px;
+.barrel {
+  height: 30px;
+  margin: 15px;
 }
 
 .navbar-right {
