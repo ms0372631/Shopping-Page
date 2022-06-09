@@ -328,11 +328,26 @@ html {
   position: absolute;
   background-color:antiquewhite;
   opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   top: 10%;
   left: 10%;
   width: 80%;
   height: 80%;
   z-index: 1;
+}
+
+.sub1 {
+  visibility: hidden;
+}
+
+.content1:hover .sub1{
+  visibility: visible;
+}
+
+.island-word {
+  margin-bottom: 60px;
 }
 
 .sea {
@@ -346,7 +361,7 @@ html {
   top: 20%;
   left: 20%;
   width: 60%;
-  height: 60%;
+  height: 50%;
   z-index: 2;
 }
 
@@ -366,12 +381,39 @@ html {
   left: 0;
 }
 
+.carscover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.sub2 {
+  visibility: hidden;
+}
+
+.content2:hover .sub2 {
+  visibility: visible;
+}
+
 #dodge {
   position: absolute;
   top: 20%;
   left: 20%;
   width: 60%;
-  height: 60%;
+  height: 50%;
+  z-index: 2;
+}
+
+.dodge-word {
+  margin-bottom: 100px;
 }
 
 .content3 {
@@ -383,9 +425,37 @@ html {
 }
 
 .guns {
+  width: 100%;
+  height: 100%;
   position: relative;
   top: 0;
   left: 0;
+}
+
+.gunscover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.guns-word {
+  margin-bottom: 20px;
+}
+
+.sub3 {
+  visibility: hidden;
+}
+
+.content3:hover .sub3 {
+  visibility: visible;
 }
 
 #rifle {
@@ -394,6 +464,7 @@ html {
   left: 20%;
   width: 60%;
   height: 60%;
+  z-index: 2;
 }
 
 .content4 {
@@ -405,17 +476,46 @@ html {
 }
 
 .joker {
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
 }
 
+.jokercover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.sub4 {
+  visibility: hidden;
+}
+
+.content4:hover .sub4 {
+  visibility: visible;
+}
+
 #amc {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 20%;
   width: 60%;
-  height: 60%;
+  height: 50%;
+  z-index: 2;
+}
+
+.joker-word {
+  margin-bottom: 100px;
 }
 
 .content5 {
@@ -427,17 +527,46 @@ html {
 }
 
 .games {
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: relative;
   top: 0;
   left: 0;
 }
 
+.gamescover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.games-word {
+  margin-bottom: 20px;
+}
+
+.sub5 {
+  visibility: hidden;
+}
+
+.content5:hover .sub5 {
+  visibility: visible;
+}
+
 #switch {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 20%;
   width: 60%;
   height: 60%;
+  z-index: 2;
 }
 
 .content6 {
@@ -454,12 +583,39 @@ html {
   left: 0;
 }
 
+.tiffanycover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
+.sub6 {
+  visibility: hidden;
+}
+
+.content6:hover .sub6 {
+  visibility: visible;
+}
+
 #tiffany2 {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 20%;
   width: 60%;
   height: 60%;
+  z-index: 2;
+}
+
+.tiffany-word {
+  margin-bottom: 40px;
 }
 
 .content7 {
@@ -471,17 +627,46 @@ html {
 }
 
 .steak {
-  position: absolute;
+  width: 100%;
+  height: 100%;
+  position: relative;
   top: 0;
   left: 0;
 }
 
+.steakcover {
+  position: absolute;
+  background-color: antiquewhite;
+  opacity: 0.5;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  z-index: 1;
+}
+
 #restaruant {
-  position: relative;
+  position: absolute;
   top: 20%;
   left: 20%;
   width: 60%;
   height: 60%;
+  z-index: 2;
+}
+
+.steak-word {
+  margin-bottom: 20px;
+}
+
+.sub7 {
+  visibility: hidden;
+}
+
+.content7:hover .sub7 {
+  visibility: visible;
 }
 
 .center {
