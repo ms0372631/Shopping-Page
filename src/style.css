@@ -36,6 +36,7 @@ html {
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
+  box-shadow: 10px 10px 5px lightblue;
 }
 
 .dropdown3 {
@@ -48,6 +49,7 @@ html {
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .container {
@@ -67,6 +69,7 @@ html {
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
+  box-shadow: 10px 10px 5px lightblue;
 }
 
 .click3:hover .dropdown2 {
@@ -184,6 +187,7 @@ html {
 
 
 .navbar a {
+  padding-top: 5px;
   text-decoration: none;
   color: black;
 }
@@ -307,7 +311,6 @@ html {
   width: 90%;
 }
 
-
 .content {
   display: flex;
   flex-direction: column;
@@ -315,8 +318,159 @@ html {
   margin-right: 5%;
 }
 
-.island {
-  z-index: 2;
+
+.content1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.sea {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#island {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content2 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.cars {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#dodge {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content3 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.guns {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#rifle {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content4 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.joker {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#amc {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content5 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.games {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#switch {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content6 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.tiffany1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#tiffany2 {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+}
+
+.content7 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%
+}
+
+.steak {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#restaruant {
+  position: relative;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
 }
 
 .center {
