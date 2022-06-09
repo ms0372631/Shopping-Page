@@ -36,7 +36,7 @@ html {
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
-  box-shadow: 10px 10px 5px lightblue;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .dropdown3 {
@@ -62,14 +62,14 @@ html {
 .dropdown2 {
   position: absolute;
   top: 130px;
-  left: 40px;
+  left: 58px;
   height: 300px;
   width: 90vw;
   display: none;
   justify-content: center;
   z-index: 2;
   background-color: blanchedalmond;
-  box-shadow: 10px 10px 5px lightblue;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .click3:hover .dropdown2 {
