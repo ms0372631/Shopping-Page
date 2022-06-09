@@ -57,6 +57,17 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+#con1 {
+  margin-left: -20px;
+  margin-right: -25px;
+}
+
+#con2 {
+  margin-left: -25px;
+  margin-right: -15px;
 }
 
 .dropdown2 {
@@ -196,7 +207,6 @@ html {
   display: flex;
   flex-direction: row;
   height: 100%;
-
   margin-left: 5%;
 }
 
