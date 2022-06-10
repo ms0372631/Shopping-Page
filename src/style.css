@@ -29,7 +29,7 @@ html {
 .dropdown1 {
   position: absolute;
   top: 130px;
-  left: 58px;
+  left: 5%;
   height: 300px;
   width: 90vw;
   display: none;
@@ -42,7 +42,7 @@ html {
 .dropdown3 {
   position: absolute;
   top: 130px;
-  left: 58px;
+  left: 5%;
   height: 300px;
   width: 90vw;
   display: none;
@@ -57,7 +57,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 #con1 {
@@ -73,7 +73,7 @@ html {
 .dropdown2 {
   position: absolute;
   top: 130px;
-  left: 58px;
+  left: 5%;
   height: 300px;
   width: 90vw;
   display: none;
