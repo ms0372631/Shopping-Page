@@ -748,6 +748,7 @@ html {
   right: 100px;
   bottom: 100px;
   text-decoration: none;
+  z-index: 3;
 }
 
 
